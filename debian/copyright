@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pyzabbix
+Source: https://github.com/lukecyca/pyzabbix.git
+
+Files: debian/*
+Copyright: (c) 2014, Kevin Bowling <kbowling@llnw.com>
+License: BSD-2-clause
+
+Files: *
+Copyright: (c) 2009 Andrew Nelson, Brett Lentz
+License: LGPL

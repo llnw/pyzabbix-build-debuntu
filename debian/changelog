@@ -1,0 +1,5 @@
+pyzabbix (0.6-llnw1) unstable; urgency=low
+
+  * Initial release. [MON-3166]
+
+ -- Kevin Bowling <kbowling@llnw.com>  Tue, 19 Aug 2014 16:59:50 -0700

@@ -1,0 +1,17 @@
+Source: pyzabbix
+Maintainer: Kevin Bowling <kbowling@llnw.com>
+Homepage: https://pypi.python.org/pypi/pyzabbix
+Section: python
+X-Python-Version: >= 2.6
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               python-all (>= 2.6.6-3~),
+               python-setuptools
+
+Package: pyzabbix
+Architecture: all
+Depends: python-requests (>= 1.0), ${misc:Depends}, ${python:Depends}
+Description: Python zabbix API client (Python 2)
+ Provides a Python module to interface with Zabbix.
+ .
+ This is the Python 2 version of the package.
